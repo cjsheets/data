@@ -1,0 +1,22 @@
+[
+  { id: 1, name: "Apple", cost: 0.5, category: "Fruit" },
+  { id: 2, name: "Banana", cost: 0.3, category: "Fruit" },
+  { id: 3, name: "Chicken Breast", cost: 5.0, category: "Meat" },
+  { id: 4, name: "Broccoli", cost: 1.2, category: "Vegetable" },
+  { id: 5, name: "Milk", cost: 1.5, category: "Dairy" },
+  { id: 6, name: "Bread", cost: 2.0, category: "Bakery" },
+  { id: 7, name: "Eggs", cost: 3.0, category: "Dairy" },
+  { id: 8, name: "Rice", cost: 2.5, category: "Grain" },
+  { id: 9, name: "Tomato", cost: 0.8, category: "Vegetable" },
+  { id: 10, name: "Orange Juice", cost: 3.5, category: "Beverage" },
+  { id: 11, name: "Cheese", cost: 4.0, category: "Dairy" },
+  { id: 12, name: "Pasta", cost: 1.8, category: "Grain" },
+  { id: 13, name: "Salmon", cost: 7.0, category: "Seafood" },
+  { id: 14, name: "Potato", cost: 0.4, category: "Vegetable" },
+  { id: 15, name: "Carrot", cost: 0.6, category: "Vegetable" },
+  { id: 16, name: "Yogurt", cost: 1.2, category: "Dairy" },
+  { id: 17, name: "Cereal", cost: 3.0, category: "Grain" },
+  { id: 18, name: "Almonds", cost: 5.5, category: "Snacks" },
+  { id: 19, name: "Spinach", cost: 1.0, category: "Vegetable" },
+  { id: 20, name: "Ground Beef", cost: 6.0, category: "Meat" }
+]
