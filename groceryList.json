@@ -1,22 +1,560 @@
 [
-  { "id": 1, "name": "Apple", "cost": 0.5, "category": "Fruit" },
-  { "id": 2, "name": "Banana", "cost": 0.3, "category": "Fruit" },
-  { "id": 3, "name": "Chicken Breast", "cost": 5.0, "category": "Meat" },
-  { "id": 4, "name": "Broccoli", "cost": 1.2, "category": "Vegetable" },
-  { "id": 5, "name": "Milk", "cost": 1.5, "category": "Dairy" },
-  { "id": 6, "name": "Bread", "cost": 2.0, "category": "Bakery" },
-  { "id": 7, "name": "Eggs", "cost": 3.0, "category": "Dairy" },
-  { "id": 8, "name": "Rice", "cost": 2.5, "category": "Grain" },
-  { "id": 9, "name": "Tomato", "cost": 0.8, "category": "Vegetable" },
-  { "id": 10, "name": "Orange Juice", "cost": 3.5, "category": "Beverage" },
-  { "id": 11, "name": "Cheese", "cost": 4.0, "category": "Dairy" },
-  { "id": 12, "name": "Pasta", "cost": 1.8, "category": "Grain" },
-  { "id": 13, "name": "Salmon", "cost": 7.0, "category": "Seafood" },
-  { "id": 14, "name": "Potato", "cost": 0.4, "category": "Vegetable" },
-  { "id": 15, "name": "Carrot", "cost": 0.6, "category": "Vegetable" },
-  { "id": 16, "name": "Yogurt", "cost": 1.2, "category": "Dairy" },
-  { "id": 17, "name": "Cereal", "cost": 3.0, "category": "Grain" },
-  { "id": 18, "name": "Almonds", "cost": 5.5, "category": "Snacks" },
-  { "id": 19, "name": "Spinach", "cost": 1.0, "category": "Vegetable" },
-  { "id": 20, "name": "Ground Beef", "cost": 6.0, "category": "Meat" }
+    {
+        "name": "Apple",
+        "price": 0.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Banana",
+        "price": 0.3,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Orange",
+        "price": 0.6,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Broccoli",
+        "price": 1.2,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Carrot",
+        "price": 0.8,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Lettuce",
+        "price": 1.0,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Chicken Breast",
+        "price": 5.0,
+        "category": "Meat",
+        "aisle": 3
+    },
+    {
+        "name": "Ground Beef",
+        "price": 4.5,
+        "category": "Meat",
+        "aisle": 3
+    },
+    {
+        "name": "Pork Chops",
+        "price": 6.0,
+        "category": "Meat",
+        "aisle": 3
+    },
+    {
+        "name": "Milk",
+        "price": 2.5,
+        "category": "Dairy",
+        "aisle": 4
+    },
+    {
+        "name": "Cheese",
+        "price": 3.0,
+        "category": "Dairy",
+        "aisle": 4
+    },
+    {
+        "name": "Yogurt",
+        "price": 1.0,
+        "category": "Dairy",
+        "aisle": 4
+    },
+    {
+        "name": "Bread",
+        "price": 2.0,
+        "category": "Bakery",
+        "aisle": 5
+    },
+    {
+        "name": "Bagel",
+        "price": 1.5,
+        "category": "Bakery",
+        "aisle": 5
+    },
+    {
+        "name": "Croissant",
+        "price": 2.5,
+        "category": "Bakery",
+        "aisle": 5
+    },
+    {
+        "name": "Eggs",
+        "price": 2.0,
+        "category": "Dairy",
+        "aisle": 4
+    },
+    {
+        "name": "Butter",
+        "price": 1.5,
+        "category": "Dairy",
+        "aisle": 4
+    },
+    {
+        "name": "Rice",
+        "price": 1.0,
+        "category": "Grains",
+        "aisle": 6
+    },
+    {
+        "name": "Pasta",
+        "price": 1.2,
+        "category": "Grains",
+        "aisle": 6
+    },
+    {
+        "name": "Cereal",
+        "price": 3.0,
+        "category": "Grains",
+        "aisle": 6
+    },
+    {
+        "name": "Tomato",
+        "price": 0.7,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Cucumber",
+        "price": 0.9,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Bell Pepper",
+        "price": 1.1,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Onion",
+        "price": 0.5,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Garlic",
+        "price": 0.3,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Potato",
+        "price": 0.4,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Spinach",
+        "price": 1.2,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Mushroom",
+        "price": 1.5,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Strawberry",
+        "price": 2.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Blueberry",
+        "price": 2.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Raspberry",
+        "price": 3.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Grapes",
+        "price": 2.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Watermelon",
+        "price": 4.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Pineapple",
+        "price": 3.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Mango",
+        "price": 1.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Peach",
+        "price": 1.2,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Plum",
+        "price": 1.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Kiwi",
+        "price": 0.8,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Pear",
+        "price": 1.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Avocado",
+        "price": 1.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Lemon",
+        "price": 0.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Lime",
+        "price": 0.4,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Coconut",
+        "price": 2.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Almonds",
+        "price": 3.0,
+        "category": "Nuts",
+        "aisle": 7
+    },
+    {
+        "name": "Walnuts",
+        "price": 3.5,
+        "category": "Nuts",
+        "aisle": 7
+    },
+    {
+        "name": "Peanuts",
+        "price": 2.0,
+        "category": "Nuts",
+        "aisle": 7
+    },
+    {
+        "name": "Cashews",
+        "price": 4.0,
+        "category": "Nuts",
+        "aisle": 7
+    },
+    {
+        "name": "Pistachios",
+        "price": 4.5,
+        "category": "Nuts",
+        "aisle": 7
+    },
+    {
+        "name": "Hazelnuts",
+        "price": 3.5,
+        "category": "Nuts",
+        "aisle": 7
+    },
+    {
+        "name": "Sunflower Seeds",
+        "price": 1.5,
+        "category": "Seeds",
+        "aisle": 7
+    },
+    {
+        "name": "Pumpkin Seeds",
+        "price": 2.0,
+        "category": "Seeds",
+        "aisle": 7
+    },
+    {
+        "name": "Chia Seeds",
+        "price": 3.0,
+        "category": "Seeds",
+        "aisle": 7
+    },
+    {
+        "name": "Flax Seeds",
+        "price": 2.5,
+        "category": "Seeds",
+        "aisle": 7
+    },
+    {
+        "name": "Quinoa",
+        "price": 4.0,
+        "category": "Grains",
+        "aisle": 6
+    },
+    {
+        "name": "Oats",
+        "price": 2.0,
+        "category": "Grains",
+        "aisle": 6
+    },
+    {
+        "name": "Barley",
+        "price": 1.5,
+        "category": "Grains",
+        "aisle": 6
+    },
+    {
+        "name": "Corn",
+        "price": 0.8,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Peas",
+        "price": 1.0,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Green Beans",
+        "price": 1.2,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Zucchini",
+        "price": 1.0,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Eggplant",
+        "price": 1.5,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Cabbage",
+        "price": 1.0,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Cauliflower",
+        "price": 1.5,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Celery",
+        "price": 1.0,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Beetroot",
+        "price": 1.2,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Radish",
+        "price": 0.8,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Turnip",
+        "price": 1.0,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Sweet Potato",
+        "price": 1.2,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Pumpkin",
+        "price": 2.0,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Butternut Squash",
+        "price": 1.5,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Cucumber",
+        "price": 0.9,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Tomato",
+        "price": 0.7,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Bell Pepper",
+        "price": 1.1,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Onion",
+        "price": 0.5,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Garlic",
+        "price": 0.3,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Potato",
+        "price": 0.4,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Spinach",
+        "price": 1.2,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Mushroom",
+        "price": 1.5,
+        "category": "Vegetables",
+        "aisle": 2
+    },
+    {
+        "name": "Strawberry",
+        "price": 2.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Blueberry",
+        "price": 2.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Raspberry",
+        "price": 3.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Grapes",
+        "price": 2.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Watermelon",
+        "price": 4.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Pineapple",
+        "price": 3.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Mango",
+        "price": 1.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Peach",
+        "price": 1.2,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Plum",
+        "price": 1.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Kiwi",
+        "price": 0.8,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Pear",
+        "price": 1.0,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Avocado",
+        "price": 1.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Lemon",
+        "price": 0.5,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Lime",
+        "price": 0.4,
+        "category": "Fruits",
+        "aisle": 1
+    },
+    {
+        "name": "Coconut",
+        "price": 2.0,
+        "category": "Fruits",
+        "aisle": 1
+    }
 ]
